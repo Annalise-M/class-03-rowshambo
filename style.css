@@ -1,0 +1,26 @@
+const radios = document.querySelectorAll('rock-paper-scissors');
+const playGameButton = document.getElementById('play-game-button');
+const currentScore = document.getElementById ('current-score');
+const resetButton = document.getElementById ('reset-button');
+/* span input needed */
+playGameButton.addEventListener('click', () => {
+    /* choose the selected play - rock - paper - scissors */
+    /* get a random selector option - between 3 */
+    /* calculate if the user one */
+    /* change state based off calc */
+    console.log(radios);
+
+
+});
+
+img.small {
+    width: 200px;
+    height: 200px;
+};
+
+
+/* div id = rock paper scissors / rowshambo */
+/* radio with 3 different options  */
+/* play button */
+/* div id = keep score */
+/* reset button */
