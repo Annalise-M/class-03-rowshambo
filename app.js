@@ -52,4 +52,9 @@ resetButton.addEventListener('click', () => {
     userWins = 0;
     userLost = 0;
     userTies = 0;
+
+    gamePlayedSpan.textContent = gamePlayed;
+    gameWon.textContent = userWins;
+    gameLost.textContent = userLost;
+    gameTies.textContent = userTies;
 });
