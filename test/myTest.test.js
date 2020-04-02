@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import {compareResult} from '../compareResult.js';
+import { compareResult } from '../compareResult.js';
 // import example from '../src/example.js';
 
 const test = QUnit.test;
