@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Noto Serif Regular";
+    src: url('./fonts/Noto_Serif/NotoSerif-Regular.ttf') format('truetype');
+}
+
+body {
+    background-image: url('https://media.giphy.com/media/E7ClVqqCl8bVS/giphy.gif');
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header, p, #rock-paper-scissors, #game-result {
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Noto Serif Regular";
+}
+
+header {
+    margin-top: 20vh;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+img.small {
+    width: 200px;
+    height: 200px;
+};
+
+
+
+/* div id = rock paper scissors / rowshambo */
+/* radio with 3 different options  */
+/* play button */
+/* div id = keep score */
+/* reset button */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>RowShamBow</title>
+</head>
+<header>Welcome to RowShamBow!</header>
+    <p>Try your luck with Rock, Paper, Scissors!<p>
+    <p>Rules are: Rock beats scissors. Scissors beats paper. Paper beats rock.</p>    
+    <p>Pick your selection and click to play!</p>    
+
+<body>
+        <!-- add 2 images -->
+        <!-- rock paper scissors / rowshambo -->
+        <!-- below is my div with the 3 options -->
+    <div id="rock-paper-scissors">
+        <label>
+            <input name="rps" type="radio" value="rock" />
+            <img src="./images/rock.gif" class="small" alt="Rock"/>
+        </label>
+        <label>
+            <input name="rps" type="radio" value="paper" />
+            <img src="./images/paper.gif" class="small" alt="Paper"/>
+        </label>    
+        <label>
+            <input name="rps" type="radio" value="scissors" />
+            <img src="./images/scissors.gif" class="small" alt="Paper"/>
+        </label>
+    </div>
+        <!-- I want to have a play button -->
+        <!-- I want a div to keep score -->
+    <button id="play-game-button">Play!</button>
+        <!-- the computer throw place here -->
+    <span id="computer-throw"></span>
+    <div id="game-result">
+        <p>
+            Your score: <span id="game-won"></span>
+        </p>
+        <p>
+            Number of ties: <span id="game-tied"></span>
+        </p>
+        <p>
+            Number of losses: <span id="game-lost"></span>
+        </p>
+        <p>
+            Games played: <span id="game-played"></span>
+        </p>
+    </div>
+
+        <!-- I want to have a reset button as well -->
+    <button id="reset-button">Reset</button>
+
+    <script type="module" src="app.js"></script>
+    <footer></footer>
+</body>
+
+</html>
